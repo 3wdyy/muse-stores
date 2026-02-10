@@ -1,0 +1,23 @@
+{
+  "name": "muse-stores",
+  "version": "1.0.0",
+  "description": "CLI tool for querying MUSE loyalty program store locations",
+  "main": "src/index.js",
+  "bin": {
+    "muse-stores": "bin/muse-stores.js"
+  },
+  "scripts": {
+    "start": "node bin/muse-stores.js",
+    "test": "node --test src/__tests__/stores.test.js",
+    "lint": "node src/lint-check.js"
+  },
+  "keywords": [
+    "muse",
+    "stores",
+    "loyalty",
+    "retail",
+    "cli"
+  ],
+  "author": "3wdyy",
+  "license": "MIT"
+}
